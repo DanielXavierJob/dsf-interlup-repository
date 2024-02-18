@@ -1,0 +1,6 @@
+[submodule "dsf-interlup-front"]
+	path = dsf-interlup-front
+	url = https://github.com/DanielXavierJob/dsf-interlup-front.git
+[submodule "dsf-interlup-api"]
+	path = dsf-interlup-api
+	url = https://github.com/DanielXavierJob/dsf-interlup-api.git
