@@ -75,7 +75,7 @@ SECRET_KEY=1231238901823901383iikajsdoajsdasd # your secret key
 DATABASE_URL=postgresql://postgres:1234@your_host:5432/postgres # your PostgreSQL database connection
 ```
 
-3. Execute `docker-compose up` inside the `dsf-interlup-api` repository and obtain the IP provided by the WSGI by running the command:
+3. Execute `docker-compose up` inside the `dsf-interlup-api` repository, the Swagger Doc available in `http://your_host:port_wsgi`, before the started the container, obtain the IP provided by the WSGI by running to insert in enviroment to execute front-end application, follow the command:
 
 ```bash
 docker port API-INTERLUP-DSF
