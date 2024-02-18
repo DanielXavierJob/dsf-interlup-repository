@@ -87,6 +87,6 @@ docker port API-INTERLUP-DSF
 REACT_APP_API_URL=http://your_host:port_wsgi
 ```
 
-5. After configuring the `.env`, execute `docker-compose up front-dev` or `docker-compose up front-prod` inside the `dsf-interlup-front` repository.
+5. After configuring the `.env`, execute `docker compose up front` inside the `dsf-interlup-front` repository.
 
 6. Access `http://your_host:3000` to use the application.
