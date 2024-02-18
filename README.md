@@ -1,4 +1,4 @@
-# Interlup Application
+# ListEase Application
 
 ## Description
 
@@ -75,16 +75,12 @@ SECRET_KEY=1231238901823901383iikajsdoajsdasd # your secret key
 DATABASE_URL=postgresql://postgres:1234@your_host:5432/postgres # your PostgreSQL database connection
 ```
 
-3. Execute `docker-compose up --build` inside the `dsf-interlup-api` repository, the Swagger Doc available in `http://your_host:port_wsgi`, before the started the container, obtain the IP provided by the WSGI by running to insert in enviroment to execute front-end application, follow the command:
-
-```bash
-docker port API-INTERLUP-DSF
-```
+3. Execute `docker-compose up --build` inside the `dsf-interlup-api` repository, the Swagger Doc available in `http://your_host:5000`
 
 4. Access the `dsf-interlup-front` repository and configure the `.env` file with the following information:
 
 ```plaintext
-REACT_APP_API_URL=http://your_host:port_wsgi
+REACT_APP_API_URL=http://your_host:5000
 ```
 
 5. After configuring the `.env`, execute `docker compose up front  --build` inside the `dsf-interlup-front` repository.
