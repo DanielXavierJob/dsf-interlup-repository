@@ -85,4 +85,4 @@ REACT_APP_API_URL=http://your_host:5000
 
 5. After configuring the `.env`, execute `docker compose up front  --build` inside the `dsf-interlup-front` repository.
 
-6. Access `http://your_host:3000` to use the application.
+6. Access `http://your_host` to use the application.
